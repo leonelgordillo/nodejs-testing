@@ -10,7 +10,7 @@
   "scripts": {
     "debug": "cross-env DEBUG=nadia:* nodemon",
     "start": "node bin/www",
-    "test": "mocha test --recursive"
+    "test": "cross-env DEBUG=nadia:* mocha -- --recursive"
   },
   "dependencies": {
     "basic-auth": "^1.1.0",
@@ -26,10 +26,13 @@
     "node-env": "^0.1.6",
     "pug": "^2.0.0-rc.2",
     "serve-favicon": "~2.4.2",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0",
     "sqlite": "^2.8.0"
   },
   "devDependencies": {
     "cross-env": "^5.0.1",
+    "mocha-junit-reporter": "^1.23.1",
     "nodemon": "^1.11.0"
   }
 }

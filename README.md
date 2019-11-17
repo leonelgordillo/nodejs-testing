@@ -25,6 +25,7 @@ The server persists using a SQLite3 database named `database.sqlite` in the site
 
 ### Testing
 
+
 This project uses Mocha and Chai for testing.
 Visit mochajs.org and chaijs.com
 
