@@ -21,7 +21,12 @@ There are three routes:
 
 The server persists using a SQLite3 database named `database.sqlite` in the site root.
 
+## CI/CD
+
+Configured with jenkins to automate test runs and report
+
 ## Development
+
 
 ### Testing
 
