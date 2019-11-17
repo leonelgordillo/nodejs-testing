@@ -10,7 +10,7 @@
   "scripts": {
     "debug": "cross-env DEBUG=nadia:* nodemon",
     "start": "node bin/www",
-    "test": "cross-env DEBUG=nadia:* mocha -- --recursive"
+    "test": "cross-env DEBUG=nadia:* mocha test --reporter mocha-junit-reporter --reporter-options MOCHA_FILE=./jenkins-test-results.xml --recursive"
   },
   "dependencies": {
     "basic-auth": "^1.1.0",
