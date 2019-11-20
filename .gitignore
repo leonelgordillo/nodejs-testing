@@ -59,3 +59,6 @@ typings/
 
 # SQLite3
 *.sqlite
+
+# test ouputs
+test-results.xml
