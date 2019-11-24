@@ -13,8 +13,7 @@ const db = require('sqlite');
  * Get port from environment and store in Express.
  */
 
-var port = normalizePort(process.env.PORT);
-console.log("Running on port: ", process.env.PORT);
+var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
 
 /**
