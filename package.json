@@ -24,7 +24,7 @@
     "joi": "^10.6.0",
     "lodash": "^4.17.4",
     "mocha-junit-reporter": "^1.23.1",
-    "moment": "^2.18.1",
+    "moment": "^2.29.4",
     "morgan": "^1.9.1",
     "node-env": "^0.1.6",
     "pug": "^2.0.0-rc.2",
